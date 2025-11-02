@@ -1,0 +1,53 @@
+# Namaskaar Mitranno
+# 📈 Option Trading Strategies using DHAN Trade Hull API
+
+This repository contains a collection of algorithmic **option trading strategies** built using the **[DHAN Trade Hull API](https://trade.dhan.co/)**.  
+It is designed for traders and developers who want to automate, backtest, and deploy option strategies with DHAN’s modern trading infrastructure.
+
+---
+
+## 🚀 Overview
+
+The goal of this project is to provide a **modular and scalable framework** for developing and executing **options trading strategies** such as:
+- ✅ Straddle / Strangle
+- ✅ Iron Condor
+- ✅ Bull & Bear Spreads
+- ✅ Covered Call / Protective Put
+- ✅ Custom Algo Strategies (user-defined logic)
+
+These strategies are executed via the **DHAN Trade Hull API**, enabling:
+- Real-time market data
+- Order placement & management
+- Portfolio tracking
+- Risk and margin monitoring
+- WebSocket streaming for live updates
+
+---
+
+## 🧠 Features
+
+- 🔹 **Plug-and-play strategy modules** — easy to add or modify strategies  
+- 🔹 **Live & paper trading support** using DHAN APIs  
+- 🔹 **Comprehensive logging** for trade execution and error tracking  
+- 🔹 **Backtesting framework** (optional) for historical performance analysis  
+- 🔹 **Environment-configurable setup** for API keys and trade parameters  
+- 🔹 **Real-time Greeks & P&L tracking**
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/dhan-options-trading.git
+
+# Navigate to project folder
+cd dhan-options-trading
+
+# Create and activate a virtual environment (optional)
+python -m venv venv
+source venv/bin/activate   # for Linux/Mac
+venv\Scripts\activate      # for Windows
+
+# Install dependencies
+pip install -r requirements.txt
